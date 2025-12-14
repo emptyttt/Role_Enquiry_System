@@ -1,0 +1,39 @@
+QWidget#Widget
+{
+    border-image:url(:/back/1.jpg);
+    border: 1px solid #32435E;
+    background:rgb(255, 255, 0);
+    border-radius: 5px;
+}
+
+QLabel#label
+{
+    color:white;
+    font-size:20pt;
+    font-family:"Microsoft Yahei";
+    font-style:itelic;
+    font-weight:bold;/*加粗*/
+    text-align: center;
+}
+
+QPushButton {
+    font-family: "STKaiti";
+    background-color: rgb(245, 144, 66); /* 绿色背景 */
+    border: none;             /* 去掉边框 */
+    color: white;             /* 字体颜色 */
+    padding: 10px 20px;       /* 内边距 */
+    text-align: center;       /* 居中对齐 */
+    font-size: 25px;          /* 字体大小 */
+    border-radius: 8px;       /* 圆角边框 */
+    transition: 0.3s;         /* 动画过渡 */
+}
+
+QPushButton:hover {
+    background-color: rgb(245, 191, 66); /* 鼠标悬停变色 */
+}
+
+QPushButton:pressed {
+    background-color: #3e8e41; /* 按下变色 */
+}
+
+

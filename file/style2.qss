@@ -1,0 +1,10 @@
+<!DOCTYPE RCC>
+<RCC version="1.0"/>
+
+QWidget#Widget
+{
+    border-image:url(:/back/3.jpg);
+    border: 1px solid #32435E;
+    background:rgb(255, 255, 0);
+    border-radius: 5px;
+}
